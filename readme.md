@@ -36,5 +36,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 AUTHOR:
 Embedded Zone
-
-Engineer: Volkan Benzer - Sr. Firmware/Hardware Engineer) - volkan.benzer@gmail.com 
+Engineer: Volkan Benzer - Sr. Firmware/Hardware Engineer - volkan.benzer@gmail.com 
