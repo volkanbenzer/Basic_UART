@@ -1,0 +1,103 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue May 27 00:43:45 2025
+# Process ID: 3676
+# Log file: H:/Spartan3E/Basic_UART_Spartan3E/planAhead_run_1/planAhead.log
+# Journal file: H:/Spartan3E/Basic_UART_Spartan3E/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source H:/Spartan3E/Basic_UART_Spartan3E/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {rxDataOut_OutputPort[7]}]]
+set_property package_pin "" [get_ports [list  {rxDataOut_OutputPort[6]}]]
+startgroup
+set_property package_pin F12 [get_ports {rxDataOut_OutputPort[7]}]
+endgroup
+startgroup
+set_property package_pin F9 [get_ports {rxDataOut_OutputPort[7]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {rxDataOut_OutputPort[0]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {rxDataOut_OutputPort[1]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {rxDataOut_OutputPort[2]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {rxDataOut_OutputPort[3]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {rxDataOut_OutputPort[2]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {rxDataOut_OutputPort[3]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {rxDataOut_OutputPort[4]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {rxDataOut_OutputPort[5]}]
+endgroup
+startgroup
+set_property package_pin E9 [get_ports {rxDataOut_OutputPort[6]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {rxDataOut_OutputPort[5]}]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list {rxDataOut_OutputPort[7]}]]
+set_property iostandard LVTTL [get_ports [list {rxDataOut_OutputPort[7]} {rxDataOut_OutputPort[6]} {rxDataOut_OutputPort[5]} {rxDataOut_OutputPort[4]} {rxDataOut_OutputPort[3]} {rxDataOut_OutputPort[2]} {rxDataOut_OutputPort[1]} {rxDataOut_OutputPort[0]}]]
+set_property drive 8 [get_ports [list {rxDataOut_OutputPort[7]} {rxDataOut_OutputPort[6]} {rxDataOut_OutputPort[5]} {rxDataOut_OutputPort[4]} {rxDataOut_OutputPort[3]} {rxDataOut_OutputPort[2]} {rxDataOut_OutputPort[1]} {rxDataOut_OutputPort[0]}]]
+startgroup
+set_property package_pin N17 [get_ports {txDataIn_InputPort[7]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {txDataIn_InputPort[6]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {txDataIn_InputPort[5]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {txDataIn_InputPort[4]}]
+endgroup
+set_property iostandard LVTTL [get_ports [list {txDataIn_InputPort[7]} {txDataIn_InputPort[6]} {txDataIn_InputPort[5]} {txDataIn_InputPort[4]} {txDataIn_InputPort[3]} {txDataIn_InputPort[2]} {txDataIn_InputPort[1]} {txDataIn_InputPort[0]}]]
+set_property pulltype PULLUP [get_ports [list {txDataIn_InputPort[7]} {txDataIn_InputPort[6]} {txDataIn_InputPort[5]} {txDataIn_InputPort[4]} {txDataIn_InputPort[3]} {txDataIn_InputPort[2]} {txDataIn_InputPort[1]} {txDataIn_InputPort[0]}]]
+startgroup
+set_property package_pin V4 [get_ports {txDataIn_InputPort[3]}]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports {txDataIn_InputPort[2]}]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports {txDataIn_InputPort[1]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {txDataIn_InputPort[0]}]
+endgroup
+set_property pulltype PULLDOWN [get_ports [list {txDataIn_InputPort[0]}]]
+set_property pulltype PULLDOWN [get_ports [list {txDataIn_InputPort[1]}]]
+set_property pulltype PULLDOWN [get_ports [list {txDataIn_InputPort[2]}]]
+set_property pulltype PULLDOWN [get_ports [list {txDataIn_InputPort[3]}]]
+startgroup
+set_property package_pin C9 [get_ports clk_InputPin]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list clk_InputPin]]
+set_property pulltype PULLUP [get_ports [list reset_InputPin]]
+startgroup
+set_property package_pin R7 [get_ports rx_InputPin]
+endgroup
+set_property iostandard LVTTL [get_ports [list rx_InputPin]]
+startgroup
+set_property package_pin M14 [get_ports tx_OutputPin]
+endgroup
+set_property iostandard LVTTL [get_ports [list tx_OutputPin]]
+set_property drive 8 [get_ports [list tx_OutputPin]]
+set_property pulltype PULLDOWN [get_ports [list rxReadyClr_InputPin]]
+startgroup
+set_property package_pin V16 [get_ports txWrEn_InputPin]
+endgroup
+set_property iostandard LVTTL [get_ports [list txWrEn_InputPin]]
+set_property pulltype PULLDOWN [get_ports [list txWrEn_InputPin]]
+save_constraints

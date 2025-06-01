@@ -1,0 +1,6 @@
+verilog work "../Vivado_2024_projeler/Basic_UART/Basic_UART.srcs/sources_1/new/transmitter.v"
+verilog work "../Vivado_2024_projeler/Basic_UART/Basic_UART.srcs/sources_1/new/receiver.v"
+verilog work "../Vivado_2024_projeler/Basic_UART/Basic_UART.srcs/sources_1/new/baudRateGenerator.v"
+verilog work "../Vivado_2024_projeler/Basic_UART/Basic_UART.srcs/sources_1/new/UART.v"
+verilog work "../Vivado_2024_projeler/Basic_UART/Basic_UART.srcs/sim_1/new/UART_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "H:/Spartan3E/Basic_UART_Spartan3E/UART_tb_isim_beh.exe" -prj "H:/Spartan3E/Basic_UART_Spartan3E/UART_tb_beh.prj" "work.UART_tb" "work.glbl" 

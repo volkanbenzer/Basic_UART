@@ -1,0 +1,16 @@
+[Inputs]
+reset_InputPin
+clk_InputPin
+txWrEn_InputPin
+rx_InputPin
+rxReadyClr_InputPin
+=txDataIn_InputPort[7:0]=
+[Outputs]
+tx_OutputPin
+txBusy_OutputPin
+rxReady_OutputPin
+=rxDataOut_OutputPort[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel UART
+

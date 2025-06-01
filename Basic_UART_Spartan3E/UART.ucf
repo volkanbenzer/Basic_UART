@@ -1,0 +1,98 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "rxDataOut_OutputPort[0]" LOC = F12;
+NET "rxDataOut_OutputPort[1]" LOC = E12;
+NET "rxDataOut_OutputPort[2]" LOC = E11;
+NET "rxDataOut_OutputPort[3]" LOC = F11;
+NET "rxDataOut_OutputPort[4]" LOC = C11;
+NET "rxDataOut_OutputPort[5]" LOC = D11;
+NET "rxDataOut_OutputPort[6]" LOC = E9;
+NET "rxDataOut_OutputPort[7]" LOC = F9;
+
+# PlanAhead Generated IO constraints 
+
+NET "rxDataOut_OutputPort[7]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[6]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[5]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[4]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[3]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[2]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[1]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[0]" IOSTANDARD = LVTTL;
+NET "rxDataOut_OutputPort[7]" DRIVE = 8;
+NET "rxDataOut_OutputPort[6]" DRIVE = 8;
+NET "rxDataOut_OutputPort[5]" DRIVE = 8;
+NET "rxDataOut_OutputPort[4]" DRIVE = 8;
+NET "rxDataOut_OutputPort[3]" DRIVE = 8;
+NET "rxDataOut_OutputPort[2]" DRIVE = 8;
+NET "rxDataOut_OutputPort[1]" DRIVE = 8;
+NET "rxDataOut_OutputPort[0]" DRIVE = 8;
+
+# PlanAhead Generated physical constraints 
+
+NET "txDataIn_InputPort[7]" LOC = N17;
+NET "txDataIn_InputPort[6]" LOC = H18;
+NET "txDataIn_InputPort[5]" LOC = L14;
+NET "txDataIn_InputPort[4]" LOC = L13;
+NET "txDataIn_InputPort[3]" LOC = V4;
+NET "txDataIn_InputPort[2]" LOC = D18;
+NET "txDataIn_InputPort[1]" LOC = K17;
+NET "txDataIn_InputPort[0]" LOC = H13;
+
+# PlanAhead Generated IO constraints 
+
+NET "txDataIn_InputPort[7]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[6]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[5]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[4]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[3]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[2]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[1]" IOSTANDARD = LVTTL;
+NET "txDataIn_InputPort[0]" IOSTANDARD = LVTTL;
+
+NET "txDataIn_InputPort[7]" PULLDOWN;
+NET "txDataIn_InputPort[6]" PULLDOWN;
+NET "txDataIn_InputPort[5]" PULLDOWN;
+NET "txDataIn_InputPort[4]" PULLDOWN;
+NET "txDataIn_InputPort[3]" PULLDOWN;
+NET "txDataIn_InputPort[2]" PULLDOWN;
+NET "txDataIn_InputPort[1]" PULLDOWN;
+NET "txDataIn_InputPort[0]" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk_InputPin" LOC = C9;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk_InputPin" IOSTANDARD = LVCMOS33;
+NET "reset_InputPin" PULLUP;
+
+# PlanAhead Generated physical constraints 
+
+NET "rx_InputPin" LOC = R7;
+
+# PlanAhead Generated IO constraints 
+
+NET "rx_InputPin" IOSTANDARD = LVTTL;
+NET "rx_InputPin" PULLUP;
+
+# PlanAhead Generated physical constraints 
+
+NET "tx_OutputPin" LOC = M14;
+
+# PlanAhead Generated IO constraints 
+
+NET "tx_OutputPin" IOSTANDARD = LVTTL;
+NET "tx_OutputPin" DRIVE = 8;
+NET "rxReadyClr_InputPin" PULLDOWN;
+
+# PlanAhead Generated physical constraints 
+
+NET "txWrEn_InputPin" LOC = V16;
+
+# PlanAhead Generated IO constraints 
+
+NET "txWrEn_InputPin" IOSTANDARD = LVTTL;
+NET "txWrEn_InputPin" PULLDOWN;

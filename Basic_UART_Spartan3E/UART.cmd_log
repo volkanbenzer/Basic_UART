@@ -1,0 +1,164 @@
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf 
+vhdtdtfi -lib work H:/Spartan3E/Vivado_2024_projeler/Basic_UART/Basic_UART.srcs/sources_1/new/UART.v -lang verilog -prj Basic_UART_Spartan3E -o UART.spl -module UART -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e UART.spl H:/Spartan3E/Basic_UART_Spartan3E/UART.sym 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+ibiswriter -intstyle ise -truncate 20 UART.ncd UART.ibs 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UART.ngc UART_synthesis.v 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+bitgen -intstyle ise -f UART.ut UART.ncd 
+xst -intstyle ise -ifn "H:/Spartan3E/Basic_UART_Spartan3E/UART.xst" -ofn "H:/Spartan3E/Basic_UART_Spartan3E/UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UART.ucf -p xc3s500e-fg320-5 UART.ngc UART.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o UART_map.ncd UART.ngd UART.pcf 
+par -w -intstyle ise -ol high -t 1 UART_map.ncd UART.ncd UART.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UART.twx UART.ncd -o UART.twr UART.pcf -ucf UART.ucf 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim UART.ngc UART_synthesis.v 
+bitgen -intstyle ise -f UART.ut UART.ncd 

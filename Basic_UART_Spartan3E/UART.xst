@@ -1,0 +1,5 @@
+set -tmpdir "H:/Spartan3E/Basic_UART_Spartan3E/xst/projnav.tmp"
+set -xsthdpdir "H:/Spartan3E/Basic_UART_Spartan3E/xst"
+elaborate
+-ifn UART.prj
+-ifmt mixed

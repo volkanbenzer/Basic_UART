@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=H:\Spartan3E\Basic_UART_Spartan3E\impact.xsl
+OUTFILE=H:\Spartan3E\Basic_UART_Spartan3E\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=H:\Spartan3E\Basic_UART_Spartan3E
+LICENSE=iMPACT
+USER_INFO=iMPACT

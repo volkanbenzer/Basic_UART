@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\Spartan3E\Basic_UART_Spartan3E\UART.ncd
+OUTFILE=H:\Spartan3E\Basic_UART_Spartan3E\UART.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=H:\Spartan3E\Basic_UART_Spartan3E
+LICENSE=WebPack
+USER_INFO=211669773_0_0_274

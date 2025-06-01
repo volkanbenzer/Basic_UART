@@ -1,0 +1,4 @@
+verilog work "transmitter.v"
+verilog work "receiver.v"
+verilog work "baudRateGenerator.v"
+verilog work "UART.v"
